@@ -52,3 +52,13 @@ set FLASK_ENV=<Environment name>
 4. To start API in localhost using https, run the command
 
 "python app.py"
+
+### Verification
+
+1. Open Postman
+
+2. Import the environment file and postman collection in `docs` directory into Postman
+
+3. Trigger the requests and verify the end points
+
+(Get the access token by calling the login api and use it for authorization)
